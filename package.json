@@ -11,10 +11,13 @@
     "babel-jest": "^24.9.0",
     "bootstrap": "^4.1.1",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "font-awesome": "^4.7.0",
     "html-react-parser": "^0.13.0",
     "jest": "^24.9.0",
     "lodash": "^4.17.15",
+    "path": "^0.12.7",
     "prop-types": "^15.6.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -22,7 +25,8 @@
     "react-test-renderer": "^16.13.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "devstart": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
