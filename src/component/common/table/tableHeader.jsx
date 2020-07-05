@@ -7,7 +7,7 @@ class TableHeader extends Component {
         <tr>
           {this.props.columns.map((column) => (
             <th className="clickable" key={column.path || column.key}>
-              {column.label}
+              {column.label || column.key === "vote" ? "Up Votes" : ""}
             </th>
           ))}
         </tr>
